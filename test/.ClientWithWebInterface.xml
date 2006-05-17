@@ -12,7 +12,15 @@
 	
     	<xc:Context url="http://.host:.portn">
 	    
-                <xc:Application class="ClientWithWebInterface" id="15" instance="0" network="local"></xc:Application>
+                <xc:Application class="ClientWithWebInterface" id="15" instance="0" network="local">
+                  <properties xmlns="urn:xdaq-application:ClientWithWebInterface" xsi:type="soapenc:Struct">
+                    <serverHost xsi:type="xsd:string">lxplus019.cern.ch</serverHost>
+                    <serverPort xsi:type="xsd:unsignedLong">9090</serverPort>
+                  </properties>
+                 </xc:Application>
+                 </xc:Application>
+
+                </xc:Application>
                 <xc:Module>.libpath</xc:Module>
 
         </xc:Context>

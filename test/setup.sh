@@ -12,7 +12,8 @@ MWC_LIB1="${LOCALRT}/lib/slc3_ia32_gcc323/libDQMServicesExamples.so"
 echo "Looking for the MonitorWebClient library... $MWC_LIB1"
 if [ ! -f $MWC_LIB1 ]; then
     echo "Not Found! Will pick it up from the release area..."
-    MWC_LIB1="/afs/cern.ch/cms/Releases/CMSSW/prerelease/${CMSSW_VERSION}/lib/slc3_ia32_gcc323/libDQMServicesExamples.so"
+    
+MWC_LIB1="${CMSSW_RELEASE_BASE}/lib/slc3_ia32_gcc323/libDQMServicesExamples.so"
 else 
     echo "Found!"
 fi

@@ -69,6 +69,7 @@ function makeRequest(url, receiver_function)
 
 function dummy()
 {
+  displayMessages();
 }
 
 
@@ -77,3 +78,4 @@ document.write('<script src="SERVED_DIRECTORY_URL/GifDisplay.js"><\/script>');
 document.write('<script src="SERVED_DIRECTORY_URL/ContentViewer.js"><\/script>');
 document.write('<script src="SERVED_DIRECTORY_URL/ConfigBox.js"><\/script>');
 document.write('<script src="SERVED_DIRECTORY_URL/Select.js"><\/script>');
+document.write('<script src="SERVED_DIRECTORY_URL/Messages.js"><\/script>');

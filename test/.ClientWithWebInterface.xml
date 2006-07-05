@@ -24,6 +24,8 @@
                   <properties xmlns="urn:xdaq-application:ClientWithWebInterface" xsi:type="soapenc:Struct">
                     <serverHost xsi:type="xsd:string">lxplus019.cern.ch</serverHost>
                     <serverPort xsi:type="xsd:unsignedLong">9090</serverPort>
+                    <reconnectDelaySecs xsi:type="xsd:unsignedLong">5</reconnectDelaySecs>
+                    <actAsServer xsi:type="xsd:boolean">false</actAsServer>
                   </properties>
                 </xc:Application>
 

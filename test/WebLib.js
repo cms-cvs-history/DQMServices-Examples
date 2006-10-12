@@ -73,9 +73,9 @@ function dummy()
 }
 
 
-document.write('<script src="http://lxplus002.cern.ch:1972/temporary/Navigator.js"><\/script>');
-document.write('<script src="http://lxplus002.cern.ch:1972/temporary/GifDisplay.js"><\/script>');
-document.write('<script src="http://lxplus002.cern.ch:1972/temporary/ContentViewer.js"><\/script>');
-document.write('<script src="http://lxplus002.cern.ch:1972/temporary/ConfigBox.js"><\/script>');
-document.write('<script src="http://lxplus002.cern.ch:1972/temporary/Select.js"><\/script>');
-document.write('<script src="http://lxplus002.cern.ch:1972/temporary/Messages.js"><\/script>');
+document.write('<script src="http://lxplus015.cern.ch:1972/temporary/Navigator.js"><\/script>');
+document.write('<script src="http://lxplus015.cern.ch:1972/temporary/GifDisplay.js"><\/script>');
+document.write('<script src="http://lxplus015.cern.ch:1972/temporary/ContentViewer.js"><\/script>');
+document.write('<script src="http://lxplus015.cern.ch:1972/temporary/ConfigBox.js"><\/script>');
+document.write('<script src="http://lxplus015.cern.ch:1972/temporary/Select.js"><\/script>');
+document.write('<script src="http://lxplus015.cern.ch:1972/temporary/Messages.js"><\/script>');

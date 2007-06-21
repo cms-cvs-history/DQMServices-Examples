@@ -1,3 +1,4 @@
+<flags SEAL_PLUGIN_NAME="DQMServicesExamples">
 <use name=DQMServices/Core>
 <use name=DQMServices/NodeROOT>
 <use name=DQMServices/Components>

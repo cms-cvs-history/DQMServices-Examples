@@ -73,9 +73,9 @@ function dummy()
 }
 
 
-document.write('<script src="SERVED_DIRECTORY_URL/Navigator.js"><\/script>');
-document.write('<script src="SERVED_DIRECTORY_URL/GifDisplay.js"><\/script>');
-document.write('<script src="SERVED_DIRECTORY_URL/ContentViewer.js"><\/script>');
-document.write('<script src="SERVED_DIRECTORY_URL/ConfigBox.js"><\/script>');
-document.write('<script src="SERVED_DIRECTORY_URL/Select.js"><\/script>');
-document.write('<script src="SERVED_DIRECTORY_URL/Messages.js"><\/script>');
+document.write('<script src="SERVED_DIRECTORY_URL/js_files/Navigator.js"><\/script>');
+document.write('<script src="SERVED_DIRECTORY_URL/js_files/GifDisplay.js"><\/script>');
+document.write('<script src="SERVED_DIRECTORY_URL/js_files/ContentViewer.js"><\/script>');
+document.write('<script src="SERVED_DIRECTORY_URL/js_files/ConfigBox.js"><\/script>');
+document.write('<script src="SERVED_DIRECTORY_URL/js_files/Select.js"><\/script>');
+document.write('<script src="SERVED_DIRECTORY_URL/js_files/Messages.js"><\/script>');

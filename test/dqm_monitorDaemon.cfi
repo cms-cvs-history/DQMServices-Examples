@@ -22,7 +22,7 @@ untracked int32 UpdateDelay = 1000
 untracked int32 maxAttempts2Reconnect	= 10
   
 # name of DQM source (default: DQMSource)
-untracked string NameAsSource = "FU0"	
+untracked string NameAsSource = "Example"	
 
 }
 

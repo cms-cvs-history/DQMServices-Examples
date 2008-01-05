@@ -2,9 +2,9 @@
  * \file DQMSourceExample.cc
  * \author C.Leonidopoulos
  * Last Update:
- * $Date: 2007/11/14 12:00:21 $
- * $Revision: 1.3 $
- * $Author: 1.3 $
+ * $Date: 2007/11/26 16:09:19 $
+ * $Revision: 1.9 $
+ * $Author: ameyer $
  *
  * Description: Simple example showing how to create a DQM Source creating and filling
  * monitoring elements
@@ -14,8 +14,8 @@
 
 #include "FWCore/ServiceRegistry/interface/Service.h"
 
-
-#include <TRandom.h> // this is just the random number generator
+#include "TRandom.h" // this is just the random number generator
+#include <math.h>
 
 using namespace std;
 using namespace edm;
@@ -43,7 +43,9 @@ counterEvt_(0)
 //  dbe_->open("Ecal_000017224.root",true,"","Collate");
 
 //// use this to merge histograms from different runs into the same file
-//  dbe_->open("Ecal_000017220.root",true,"","Run017220");
+///  dbe_->open("DQM_EcalBarrel_R000020994.root",true,"","");
+///  dbe_->open("DQM_L1T_R000020994.root",true,"","");
+
 //  dbe_->open("Ecal_000017224.root",true,"","Run017224");
 
 //// use this to retrieve CMSSW version of file

@@ -1,0 +1,7 @@
+## needed geometries
+
+## needed backend
+service = DQMStore {}
+  
+## actual producer
+include "DQMServices/Examples/data/ConverterTester.cfi"

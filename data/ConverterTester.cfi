@@ -1,0 +1,19 @@
+module convertertester = ConverterTester
+{
+    untracked string Name = "ConverterTester"
+    untracked int32 Verbosity = 0  # 0 provides no output
+                                   # 1 provides basic output
+                                   # 2 provides output of the fill step + 1
+                                   # 3 provides output of the store step + 2
+    string OutputFile = "ConverterTester.root"
+    bool DoOutput = false
+    untracked int32 Frequency = 50
+     
+    PSet ProvenanceLookup =
+    {
+        untracked bool GetAllProvenances = false
+        untracked bool PrintProvenanceInfo = false
+    }
+ 
+}    
+

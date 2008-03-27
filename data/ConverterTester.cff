@@ -2,6 +2,11 @@
 
 ## needed backend
 service = DQMStore {}
+
+include "DQMServices/Components/test/dqm_onlineEnv.cfi"
+replace dqmSaver.fileName = "ConverterTester"
+replace dqmSaver.saveAtRunEnd = false
+replace dqmSaver.saveAtJobEnd = true
   
 ## actual producer
 include "DQMServices/Examples/data/ConverterTester.cfi"

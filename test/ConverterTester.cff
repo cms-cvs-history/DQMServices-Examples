@@ -3,10 +3,9 @@
 ## needed backend
 service = DQMStore {}
 
-include "DQMServices/Components/test/dqm_onlineEnv.cfi"
-replace dqmSaver.fileName = "ConverterTester"
-replace dqmSaver.saveAtRunEnd = false
-replace dqmSaver.saveAtJobEnd = true
-  
+include "DQMServices/Components/data/DQMEnvironment.cfi"
+replace dqmSaver.convention = "Offline"
+replace dqmSaver.workflow = "/ConverterTester/Workflow/RECO"
+
 ## actual producer
-include "DQMServices/Examples/data/ConverterTester.cfi"
+include "DQMServices/Examples/test/ConverterTester.cfi"

@@ -1,9 +1,0 @@
-module convertertester = ConverterTester
-{
-    untracked string Name = "ConverterTester"
-    untracked int32 Verbosity = 0  # 0 provides no output
-                                   # 1 provides basic output
-    untracked int32 Frequency = 50
-      
-}    
-

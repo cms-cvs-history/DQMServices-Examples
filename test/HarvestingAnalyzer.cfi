@@ -1,6 +1,0 @@
-module harvestinganalyzer = HarvestingAnalyzer
-{
-    untracked string Name = "HarvestingAnalyzer"
-    untracked int32 Verbosity = 0  # 0 provides no output
-                                   # 1 provides basic output
-}  

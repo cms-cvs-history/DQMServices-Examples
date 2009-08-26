@@ -18,7 +18,7 @@ process.GlobalTag.globaltag = "STARTUP31X_V1::All"
 process.prefer("GlobalTag")
 #process.Tracer = cms.Service("Tracer")
 
-process.load("DQMServices.Components.DQMLogError_cfi.py")
+process.load("DQMServices.Components.DQMLogError_cfi")
 
 process.dqmSaver.workflow = cms.untracked.string('/workflow/for/mytest')
 
